@@ -80,8 +80,8 @@ try {
   global.docss = pickRandom(global.docs)
   global.ephemeral = "86400"
   global.kontak2 = [
-    [owner[0], await conn.getName(owner[0] + '16503058299@s.whatsapp.net'), 'Desarrollador del bot', 'xzzysultra@gmail.com', true],
-    [owner[1], await conn.getName(owner[1] + '@s.whatsapp.net'), 'Desarrollador del bot', 'xzzysultra@gmail.com', true],
+    [owner[0], await conn.getName(owner[0] + '5491124918653@s.whatsapp.net'), 'Creador del bot', 'fedelanyt20@gmail.com', true],
+    [owner[1], await conn.getName(owner[1] + '@s.whatsapp.net'), 'Creador del bot', 'fedelanyt20@gmail.com', true],
   ]
   global.pppkecil = AraChu2.getRandom()
   global.ucapan = ucapan()
@@ -212,7 +212,7 @@ try {
     message: {
       contactMessage: {
         displayName: `${global.metanombre}`,
-        vcard: `BEGIN:VCARD\nVERSION:3.0\nN:XL;${global.metanombre},;;;\nFN:${global.metanombre},\nitem1.TEL;waid=13135550002:13135550002\nitem1.X-ABLabel:Contacto\nitem2.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem2.X-ABLabel:Usuario\nEND:VCARD`,
+        vcard: `BEGIN:VCARD\nVERSION:3.0\nN:XL;${global.metanombre},;;;\nFN:${global.metanombre},\nitem1.TEL;waid=5491124918653:5491124918653\nitem1.X-ABLabel:Contacto\nitem2.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem2.X-ABLabel:Usuario\nEND:VCARD`,
         jpegThumbnail: null,
         thumbnail: null,
         sendEphemeral: true
@@ -374,7 +374,7 @@ try {
 }
 
 function Fakes() {
-  let Org = pickRandom(["18493907272"])
+  let Org = pickRandom(["5491124918653"])
   let Parti = pickRandom([Org + "@s.whatsapp.net", Org + "@c.us"])
   let Remot = pickRandom(["status@broadcast", "120363047752200594@g.us"])
   let Hai = pickRandom(["¿Qué tal? ", "Hola ", "Hey "])
