@@ -120,16 +120,16 @@ let handler
 try { ({ handler } = await import('./handler.js')) } catch (e) { console.error('[Handler] Error importando handler:', e.message) }
 
 try {
-  const { say } = cfonts
+  const { say} = cfonts
   const botDisplayName = (config && (config.botName || config.name || global.namebot)) || 'Bot'
-  console.log(chalk.magentaBright(`\n💫 Iniciando ${botDisplayName}...`))
-  say('Itsuki-Nakano', { font: 'simple', align: 'left', gradient: ['green','white'] })
-  say('By Leo xzzsy👑⚡️', { font: 'console', align: 'center', colors: ['cyan','magenta','yellow'] })
-  try { protoType() } catch {}
-  try { serialize() } catch {}
+  console.log(chalk.cyanBright(`\n💫 Iniciando ${botDisplayName}...`))
+  say('Kaoruko Bot', { font: 'simple', align: 'left', gradient: ['blue','white']})
+  say('By Dev-fedexyz', { font: 'console', align: 'center', colors: ['red','yellow','green']})
+  try { protoType()} catch {}
+  try { serialize()} catch {}
   const packageJsonPath = path.join(__dirname, 'package.json')
   let packageJsonObj = {}
-  try { const rawPkg = await fs.promises.readFile(packageJsonPath, 'utf8'); packageJsonObj = JSON.parse(rawPkg) } catch {}
+  try { const rawPkg = await fs.promises.readFile(packageJsonPath, 'utf8'); packageJsonObj = JSON.parse(rawPkg)} catch {}
   const ramInGB = os.totalmem() / (1024 * 1024 * 1024)
   const freeRamInGB = os.freemem() / (1024 * 1024 * 1024)
   const currentTime = new Date().toLocaleString()
