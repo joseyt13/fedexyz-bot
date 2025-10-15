@@ -14,7 +14,7 @@ global.__dirname = (url) => dirname(fileURLToPath(url));
 
 global.owner = [
    ['5491156178758', 'Dev-fedexy', true],
-   ['5491124918653', 'Dev-fedexy, true],
+   ['5491124918653', 'Dev-fedexy', true],
 ];
 
 global.mods = ['5491156178758', '5491124918653']
