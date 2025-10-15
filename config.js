@@ -14,12 +14,12 @@ global.__dirname = (url) => dirname(fileURLToPath(url));
 
 global.owner = [
    ['5491156178758', 'Dev-fedexy', true],
-   ['', 'Dev-fedexy, true],
+   ['5491124918653', 'Dev-fedexy, true],
 ];
 
-global.mods = ['16503058299', '595972314588', '51921826291']
-global.suittag = ['16503058299', '595972314588', '51921826291']
-global.prems = ['16503058299', '595972314588', '51921826291']
+global.mods = ['5491156178758', '5491124918653']
+global.suittag = ['5491156178758', '5491124918653']
+global.prems = ['5491156178758', '5491124918653']
 
 // Información del bot 
 
