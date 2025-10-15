@@ -10,7 +10,8 @@ import { dirname } from 'path'
 
 global.__dirname = (url) => dirname(fileURLToPath(url));
 
-// Configuraciones principales
+// BETA: Número de bot, pide code usando 2
+global.botNumber = '5491124918653'
 
 global.owner = [
    ['5491156178758', 'Dev-fedexy', true],
@@ -21,24 +22,22 @@ global.mods = ['5491156178758', '5491124918653']
 global.suittag = ['5491156178758', '5491124918653']
 global.prems = ['5491156178758', '5491124918653']
 
-// Información del bot 
+ 
 
 global.libreria = 'Baileys'
 global.baileys = 'V 6.7.9'
 global.languaje = 'Español'
 global.vs = '4.3.1'
 global.vsJB = '5.0'
-global.nameqr = 'Itsukiqr'
-global.namebot = 'Itsuki-IA'
+global.nameqr = 'NagiBotV1'
+global.namebot = 'Nagi-Bot'
 global.sessions = 'Itsuki-sessions'
 global.jadi = 'jadibts'
 global.ItsukiJadibts = true
 global.Choso = true
-global.prefix = ['.', '!', '/' , '#', '%']
 global.apikey = 'ItsukiNakanoIA'
-// Números y settings globales para varios códigos
 
-global.botNumber = '18292605400'
+
 
 global.packname = 'La Mejor Bot De WhatsApp'
 global.botname = '𝐈𝐭𝐬𝐮𝐤𝐢 𝐍𝐚𝐤𝐚𝐧𝐨-𝐈𝐀 𝐖𝐚𝐛𝐨𝐭 👑✨'
@@ -60,7 +59,7 @@ global.fetch = fetch
 global.axios = axios
 global.moment = moment
 
-// Enlaces oficiales del bot 
+
 
 global.gp1 = 'https://chat.whatsapp.com/EteP5pnrAZC14y9wReGF1V'
 global.comunidad1 = 'https://chat.whatsapp.com/DeJvBuS7QgB3Ybp1BZulWL'
@@ -69,7 +68,7 @@ global.channel2 = 'https://whatsapp.com/channel/0029ValMlRS6buMFL9d0iQ0S'
 global.md = 'https://github.com/xzzys26/Itsuki-Nakano'
 global.correo = 'xzzysultra@gmail.com'
 
-// Apis para las descargas y más
+
 
 global.APIs = {
   ryzen: 'https://api.ryzendesu.vip',
@@ -87,7 +86,7 @@ global.APIKeys = {
   'https://mayapi.ooguy.com': 'may-f53d1d49'
 }
 
-// Endpoints de IA
+
 
 global.SIPUTZX_AI = {
   base: global.APIs?.siputzx || 'https://api.siputzx.my.id',
@@ -129,7 +128,7 @@ watchFile(file, () => {
   try { import(pathToFileURL(file).href + `?update=${Date.now()}`) } catch {}
 })
 
-// Configuraciones finales
+
 
 export default {
   prefix: global.prefix,
