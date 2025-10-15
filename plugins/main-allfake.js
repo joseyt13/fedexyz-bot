@@ -8,7 +8,7 @@ let AraChu2 = {
   getRandom: () => 'https://files.catbox.moe/9cbbyf.jpg'
 }
 
-let owner = ['16503058299']
+let owner = ['5491124918653']
 let conn = {
   getName: (jid) => 'Bot Owner'
 }
@@ -21,7 +21,7 @@ let snh = 'https://tiktok.com'
 let syt = 'https://youtube.com'
 
 global.docs = ['doc1', 'doc2', 'doc3']
-global.nomorown = '18493907272@s.whatsapp.net'
+global.nomorown = '5491124918653@s.whatsapp.net'
 global.logo = 'https://raw.githubusercontent.com/WillZek/Storage-CB2/main/images/54dfe27a73cf.jpg'
 global.iconorcanal = 'https://raw.githubusercontent.com/WillZek/Storage-CB2/main/images/54dfe27a73cf.jpg'
 global.metanombre = 'Meta AI'
