@@ -22,7 +22,7 @@ global.mods = ['5491156178758', '5491124918653']
 global.suittag = ['5491156178758', '5491124918653']
 global.prems = ['5491156178758', '5491124918653']
 
- 
+ //---------------------------------------------------------
 
 global.libreria = 'Baileys'
 global.baileys = 'V 6.7.9'
@@ -37,7 +37,7 @@ global.ItsukiJadibts = true
 global.Choso = true
 global.apikey = 'ItsukiNakanoIA'
 
-
+//---------------------------------------------------------
 
 global.packname = 'La Mejor Bot De WhatsApp'
 global.botname = '𝐈𝐭𝐬𝐮𝐤𝐢 𝐍𝐚𝐤𝐚𝐧𝐨-𝐈𝐀 𝐖𝐚𝐛𝐨𝐭 👑✨'
@@ -59,7 +59,7 @@ global.fetch = fetch
 global.axios = axios
 global.moment = moment
 
-
+//---------------------------------------------------------
 
 global.gp1 = 'https://chat.whatsapp.com/EteP5pnrAZC14y9wReGF1V'
 global.comunidad1 = 'https://chat.whatsapp.com/DeJvBuS7QgB3Ybp1BZulWL'
@@ -68,7 +68,7 @@ global.channel2 = 'https://whatsapp.com/channel/0029ValMlRS6buMFL9d0iQ0S'
 global.md = 'https://github.com/xzzys26/Itsuki-Nakano'
 global.correo = 'xzzysultra@gmail.com'
 
-
+//---------------------------------------------------------
 
 global.APIs = {
   ryzen: 'https://api.ryzendesu.vip',
@@ -86,7 +86,7 @@ global.APIKeys = {
   'https://mayapi.ooguy.com': 'may-f53d1d49'
 }
 
-
+//---------------------------------------------------------
 
 global.SIPUTZX_AI = {
   base: global.APIs?.siputzx || 'https://api.siputzx.my.id',
@@ -95,6 +95,7 @@ global.SIPUTZX_AI = {
   headers: { accept: '*/*' }
 }
 
+//---------------------------------------------------------
 
 global.chatDefaults = {
   isBanned: false,
@@ -128,7 +129,7 @@ watchFile(file, () => {
   try { import(pathToFileURL(file).href + `?update=${Date.now()}`) } catch {}
 })
 
-
+//---------------------------------------------------------
 
 export default {
   prefix: global.prefix,
