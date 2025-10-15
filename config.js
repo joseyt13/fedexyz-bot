@@ -13,12 +13,8 @@ global.__dirname = (url) => dirname(fileURLToPath(url));
 // Configuraciones principales
 
 global.owner = [
-   ['595972314588', '۪〬.࠭⤿ 👑 ⋅ 𝘿𝙖𝙫𝙞𝙙   𝙭𝙯𝙨𝙮', true],
-   ['16503058299', '𝙇𝙚𝙤   𝙭𝙯𝙨𝙮  🦇🩸', true],
-   ['15614809253', 'AyeitsRyze', true],
-   ['573133374132', 'YO SOY YO', true],
-   ['51921826291', '𝐒𝐨𝐲𝐌𝐚𝐲𝐜𝐨𝐥 <𝟑', true],
-   ['50493732693', 'Ado 🐢', true]
+   ['5491156178758', 'Dev-fedexy', true],
+   ['', 'Dev-fedexy, true],
 ];
 
 global.mods = ['16503058299', '595972314588', '51921826291']
