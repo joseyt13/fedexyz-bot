@@ -12,8 +12,6 @@ global.__dirname = (url) => dirname(fileURLToPath(url));
 
 /*BETA: Número de bot, pide code usando 2*/
 
-global.botNumber = '5491124918653'
-
 global.owner = [
   ['5491156178758', 'Dev-fedexy', true],
   ['5491124918653', 'Dev-fedexy', true],
