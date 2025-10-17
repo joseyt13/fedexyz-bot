@@ -11,6 +11,7 @@ import { dirname } from 'path'
 global.__dirname = (url) => dirname(fileURLToPath(url));
 
 // BETA: Número de bot, pide code usando 2
+
 global.botNumber = '5491124918653'
 
 global.owner = [
