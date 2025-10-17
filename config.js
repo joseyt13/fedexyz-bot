@@ -10,18 +10,29 @@ import { dirname } from 'path'
 
 global.__dirname = (url) => dirname(fileURLToPath(url));
 
-// BETA: Número de bot, pide code usando 2
+/*BETA: Número de bot, pide code usando 2*/
 
 global.botNumber = '5491124918653'
 
 global.owner = [
-   ['5491156178758', 'Dev-fedexy', true],
-   ['5491124918653', 'Dev-fedexy', true],
-];
+  ['5491156178758', 'Dev-fedexy', true],
+  ['5491124918653', 'Dev-fedexy', true],
+]
 
-global.mods = ['5491156178758', '5491124918653']
-global.suittag = ['5491156178758', '5491124918653']
-global.prems = ['5491156178758', '5491124918653']
+global.mods = [
+  '5491156178758',
+  '5491124918653'
+]
+
+global.suittag = [
+  '5491156178758',
+  '5491124918653'
+]
+
+global.prems = [
+  '5491156178758',
+  '5491124918653'
+]
 
  //---------------------------------------------------------
 
