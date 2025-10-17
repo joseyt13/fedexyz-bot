@@ -34,7 +34,7 @@ global.nameqr = 'NagiBotV1'
 global.namebot = 'Nagi-Bot'
 global.sessions = 'Itsuki-sessions'
 global.jadi = 'jadibts'
-global.ItsukiJadibts = true
+global.NagiJadibts = true
 global.Choso = true
 global.apikey = 'ItsukiNakanoIA'
 
