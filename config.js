@@ -50,21 +50,20 @@ global.Choso = true
 global.apikey = 'ItsukiNakanoIA'
 
 //---------------------------------------------------------
-
-global.packname = 'La Mejor Bot De WhatsApp'
-global.botname = '𝐈𝐭𝐬𝐮𝐤𝐢 𝐍𝐚𝐤𝐚𝐧𝐨-𝐈𝐀 𝐖𝐚𝐛𝐨𝐭 👑✨'
-global.wm = '© 𝐋𝐞𝐨  𝐗𝐬𝐳𝐲'
-global.wm3 = '⫹⫺  multi-device'
-global.author = 'made by @Leo Xzsy'
-global.dev = '© powered by Leo Xzsy'
-global.textbot = 'Itsuki|IA- Leo Xzsy'
-global.etiqueta = '@Leo Xzsy'
-global.gt = '© creado Por Leo Xzsy'
-global.me = '𝐈𝐭𝐬𝐮𝐤𝐢-𝐖𝐀𝐁𝐎𝐓'
-global.listo = '*Aqui tiene*'
-global.moneda = 'Yenes'
+global.packname = 'Nagi-BotV1 - Ek Mejor Bot De WhatsApp'
+global.botname = '𝐍𝐚𝐠𝐢-𝐈𝐀 𝐖𝐚𝐛𝐨𝐭 👑✨'
+global.author = 'made by @Dev-fedexyz'
+global.dev = '© powered by Dev-fedexyz'
+global.textbot = 'Nagi|IA - Dev-fedexyz'
+global.etiqueta = '@Dev-fedexyz'
+global.gt = '© creado por Dev-fedexyz'
+global.me = '𝐍𝐚𝐠𝐢-𝐖𝐀𝐁𝐎𝐓'
+global.listo = 'Aquí tienes'
+global.moneda = 'NagiCoins'
 global.multiplier = 69
 global.maxwarn = 3
+global.wm = '© Dev-fedexyz'
+global.wm3 = '⫹⫺ multi-device'
 global.cheerio = cheerio
 global.fs = fs
 global.fetch = fetch
